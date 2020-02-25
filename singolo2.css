@@ -1,3 +1,46 @@
+/* Fonts */
+
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    src:  local('Lato-Bold'),
+    url('./fonts/Lato-Bold.ttf') format('ttf'),
+    url('./fonts/Lato-Bold.woff') format('woff'),
+    url('./fonts/Lato-Bold.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 900;
+    src: local('Lato-Black'),
+         url('./fonts/Lato-Black.ttf') format('ttf'), 
+         url('./fonts/Lato-Black.woff') format('woff'),
+         url('./fonts/Lato-Black.woff2') format('woff2');
+  }
+ 
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    src:  local('Lato-Regular'),
+         url('./fonts/Lato-Regular.ttf') format('ttf'), 
+         url('./fonts/Lato-Regular.woff') format('woff'),
+         url('./fonts/Lato-Regular.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    src:  local('Lato-Light'),
+         url('./fonts/Lato-Light.ttf') format('ttf'), 
+         url('./fonts/Lato-Light.woff') format('woff'),
+         url('./fonts/Lato-Light.woff2') format('woff2');
+}
+
+
 body {
     margin: 0;
   }
@@ -9,5 +52,81 @@ body {
     width: 100%;
     max-width: 1020px;
     margin: 0 auto;
+   
+}
+
+
+.portfolio__back {
+    background-color: #2d303a;
+}
+
+.portfolio {
+    width: 100%;
+    max-width: 940px;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 47px;
+    border-bottom: 6px solid #323746;;
     
+    
+}
+/*padding-bottom: 63px;*/
+
+.h1 {
+    font-family: "Lato";
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 17.86px;
+    color: #666d89;
+}
+
+.paragraph {
+    color: #767e9e;
+    font-family: "Lato";
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+    padding-top: 7px;
+    margin-bottom: 11px;
+}
+
+
+/* navigation */
+
+.nav {
+    display: flex;
+}
+
+.nav__link {
+    text-decoration: none;
+    color: #767e9e;
+    font-family: Lato;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 21.56px;
+    border: 1px solid #666d89;
+    border-radius: 10%;
+    padding: 2px 6px 2px 7px;
+    margin: 2.5px;
+}
+
+.nav__link:hover {
+    color: #dedede;
+    transition: linear 0.2s;
+    border: 1px solid #c5c5c5;
+}
+
+
+
+/* Pictures */
+
+.pictures {
+    margin-top: 19px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.pic {
+    margin-bottom: 20px;
 }
