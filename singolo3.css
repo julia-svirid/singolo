@@ -262,3 +262,38 @@ body {
     color: #f5e7e8;
     transition: 0.2s;
 }
+
+
+
+/* Footer */
+
+.footer {
+    width: 100%;
+    max-width: 1020px;
+    margin: 0 auto;
+    background-color: #2d303a;
+}
+
+
+.footer__icons {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.copyright {
+    font-family: "Lato";
+    font-size: 11.5px;
+    letter-spacing: -0.04em;
+    color: #5b6179;
+    margin: 33px 0px 32px 42px;
+    line-height: 10px;
+}
+
+.footer__social {
+    margin: 22px 40px 22px 0px;
+}
+
+.footer__icon {
+    margin-left: 3px;
+}
