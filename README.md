@@ -1,1 +1,1 @@
-(https://julia-svirid.github.io/singolo/)
+https://julia-svirid.github.io/singolo/
