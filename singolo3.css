@@ -297,3 +297,8 @@ body {
 .footer__icon {
     margin-left: 3px;
 }
+
+
+.footer__icon:hover {
+    cursor: pointer;
+}
