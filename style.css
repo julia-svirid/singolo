@@ -116,7 +116,14 @@ body {
 
 
 
-.nav__link:hover {
+
+
+.nav__link.active {
+   
+    color: #d39b9b;
+}
+
+.nav__link:not(active):hover{
     cursor: pointer;
     color: #f06c64;
     transition: linear 0.3s;
