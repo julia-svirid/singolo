@@ -168,11 +168,50 @@ body {
 
 .iphone__vertical {
     margin: 57px 73px 58px 0px;
+    cursor: pointer;
+    
 }
+
+
+.black__vertical__none{
+   
+    display: block;
+    position: absolute;
+    right: 62.7%;
+    top: 28%;
+}
+
+.black__vertical{
+    
+    display: none;
+    position: absolute;
+    right: 62.7%;
+    top: 28%;
+}
+
+
 
 .iphone__horisontal {
     margin-bottom: 2px;
+    cursor: pointer;
 }
+
+
+.black__horisontal{
+    display: none;
+    position: absolute;
+    top: 37.4%;
+    left: 48.4%;
+}
+
+
+.black__horisontal__none{
+    display: block;
+    position: absolute;
+    top: 37.4%;
+    left: 48.4%;
+}
+
 
 /* Services section */
 
