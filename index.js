@@ -37,6 +37,11 @@ let pic = pictures.querySelectorAll('.pic');
 let arr = [];
 arr.push(pic); console.log(arr);
 
+pictures.addEventListener('click', (event)=>{
+    pictures.querySelectorAll('.pic').forEach(e=>e.classList.remove('active'));
+    event.target.classList.add('active');
+});
+
 
 
 nav.addEventListener('click', (event)=>{
@@ -89,3 +94,6 @@ closeButton.addEventListener('click', ()=>{
     document.getElementById('result').innerText = "";
     document.getElementById('message__block').classList.add('hidden');
 });
+
+
+
