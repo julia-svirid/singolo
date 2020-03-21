@@ -38,11 +38,11 @@ const chevR = document.getElementById('chevR');
 
 chevL.addEventListener('click', ()=>{
     const slide = document.getElementById('second__slide');
-    if (slide.className == 'none'){
-        slide.classList.remove('none');
+    if (slide.className == 'show'){
+        slide.classList.remove('show');
     }
     else {
-        slide.classList.add('none');
+        slide.classList.add('show');
     }
     
 });
@@ -50,11 +50,11 @@ chevL.addEventListener('click', ()=>{
 
 chevR.addEventListener('click', ()=>{
     const slide = document.getElementById('second__slide');
-    if (slide.className == 'none'){
-        slide.classList.remove('none');
+    if (slide.className == 'show'){
+        slide.classList.remove('show');
     }
     else {
-        slide.classList.add('none');
+        slide.classList.add('show');
     }
     
 })
