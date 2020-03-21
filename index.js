@@ -28,8 +28,57 @@ phone__2.addEventListener('click', ()=>{
     black__2.classList.add('black__horisontal__none');
 })
 
+/* Portfolio */
+
+const nav = document.getElementById('navigation__2__id');
+
+let pictures = document.getElementById('pictures__id');
+let pic = pictures.querySelectorAll('.pic');
+let arr = [];
+arr.push(pic); console.log(arr);
+
+
+
+nav.addEventListener('click', (event)=>{
+    nav.querySelectorAll('a').forEach(e=>e.classList.remove('activated'));
+    event.target.classList.add('activated');
+    shuffle(arr);
+
+}); 
+console.log(arr);
+
+
+function shuffle(arr){
+    arr.sort(() => Math.random() - 0.5);
+    pic = arr;
+}
+
+
+
+
+
+
+
+
 
 
 
 /* отправка формы */
 
+const button = document.getElementById('btn');
+const closeButton = document.getElementById('ok__button');
+
+
+button.addEventListener('click', ()=>{
+    const subject =  document.getElementById('subject').value;
+    const description =  document.getElementById('describe').value;
+    document.getElementById('result').innerText = 'Subject: ' + subject+ '\n' +'Description: ' + description;
+    document.getElementById('message__block').classList.remove('hidden');
+});
+
+
+
+closeButton.addEventListener('click', ()=>{
+    document.getElementById('result').innerText = "";
+    document.getElementById('message__block').classList.add('hidden');
+});

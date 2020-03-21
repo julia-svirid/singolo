@@ -136,7 +136,7 @@ body {
     height: 594px;
     background-color: #f06c64;
     display: flex;
-    
+    overflow: hidden;
 
 }
 
@@ -147,16 +147,19 @@ body {
     justify-content: space-between;
     align-items: center;
     border-bottom: 6px solid #ea676b;
+   
     
 }
 
 
 .chev__left {
+    z-index: 1;
     margin-left: 42px;
    
 }
 
 .chev__right {
+    z-index: 1;
     margin-right: 40px;
 }
 
@@ -379,11 +382,22 @@ h2 {
     margin: 2.5px;
 }
 
-.nav__link__2:hover {
+
+
+.nav__link__2.activated {
+    color: #ffffff;
+    background-color: #3f4350;
+}
+
+.nav__link__2:not(activated):hover {
     color: #dedede;
     transition: linear 0.2s;
     border: 1px solid #c5c5c5;
 }
+
+
+
+
 
 
 
@@ -577,12 +591,9 @@ h2 {
     
 }
 
-.input__1.fourth__input::placeholder {
-    
-}
 
 
-#input__last {
+#describe {
     resize: none;
     outline: none;
     width: 619px;
@@ -596,7 +607,7 @@ h2 {
     
 }
 
-#input__last::placeholder {
+#describe::placeholder {
     font-size: 12px;
     line-height: 22px;
     color: #f48c8f;
@@ -748,4 +759,44 @@ h2 {
 
 .footer__icon:hover {
     cursor: pointer;
+}
+
+
+
+#message__block {
+    position: absolute;
+    width: 300px;
+   
+    margin: 300px 300px 0px;
+    background: #fff8;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    
+}
+
+#message__block.hidden {
+    display: none;
+}
+
+
+#message {
+    
+    top: 36%;
+    left: 37%;
+   
+    text-align: center;
+    padding: 10px 30px;
+    font-family: "Lato";
+    color: #323746;
+    border-radius: 4px;
+    word-break: break-all;
+   
+}
+
+
+#ok__button {
+    margin: 115px 10px 10px 145px;
+    background: #fff9;
+    border-radius: 4px;
+    border: none;
+    text-align: center;
 }

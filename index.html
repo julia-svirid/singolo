@@ -26,7 +26,10 @@
 
             <div class="slider">
                 <div class="chev">
+
+
                     <a href="#" class="chev__left"><img src="./assets/chevLeft.png" alt="chev"></a>
+
                     <div id="phones" class="iphones">
 
 
@@ -38,8 +41,12 @@
                             <img id="black__h" class="black__horisontal" src="./assets/black.jpg" alt="black" width="333" height="189" >
                             <img src="./assets/iPhone_Horizontal.png" alt="iphone"></div>
                     </div>
+
                     <a href="#" class="chev__right"><img src="./assets/chevRight.png" alt="chev"></a>
+                    
                 </div>
+                
+               
         </div>
 
 
@@ -131,7 +138,7 @@
                 Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
             </p>
 
-            <nav class="navigation__2">
+            <nav id="navigation__2__id" class="navigation__2">
                 <a class="nav__link__2" href="#">All</a>
                 <a class="nav__link__2" href="#">Web Design</a>
                 <a class="nav__link__2" href="#">Graphic Design</a>
@@ -139,7 +146,7 @@
 
             </nav>
 
-            <div class="pictures">
+            <div id="pictures__id" class="pictures">
                 <img class="pic" src="./assets/singolo2/1.png" alt="1">
                 <img class="pic" src="./assets/singolo2/2.png" alt="2">
                 <img class="pic" src="./assets/singolo2/3.png" alt="3">
@@ -219,6 +226,18 @@
 <div class="container__3">
     <div class="back">
         <div id="contact__id" class="content">
+               <!--MESSAGE BLOCK-->
+            <div id="message__block" class="hidden">
+                <div id="message">
+                    <p>The letter was sent  <br>
+                        <span id="result"></span> <br>
+                        
+                     </p>
+                </div>
+                <button id="ok__button">OK</button>
+            </div>
+                <!---->
+
             <div class="quote__title">
                 <h1 class="h1__3">Get a Quote</h1>
             </div>
@@ -226,15 +245,22 @@
                 Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.
             </div>
 
-            
+
             <form action="" class="flex__container">
                 <div class="input">
-                    <input class="input__1" required type="text" placeholder="Name (Required)">
+                    <input  class="input__1" required type="text" placeholder="Name (Required)">
                     <input class="input__1" required type="email" placeholder="Email (Required)">
-                    <input class="input__1" type="text" placeholder="Subject">
-                    <textarea name="input__last" id="input__last" placeholder="Describe your project in detail..." cols="30" rows="10"></textarea>
-                    <input class="button" type="submit" value="Submit">
+
+                    <input id="subject" class="input__1" type="text" placeholder="Subject">
+                    <textarea id="describe" name="input__last" placeholder="Describe your project in detail..." cols="30" rows="10"></textarea>
+                   
+                    <input id="btn" class="button" type="submit" value="Submit">
+                    
+              
                 </div>
+                
+           
+               
 
                 <div class="contact">
                     <div class="contact__title">Contact Information</div>
@@ -252,10 +278,12 @@
             
            
 
+
         </div>
     </div>
 </div>
 
+    
 <script src="index.js"></script>
 
 </body>
@@ -272,5 +300,7 @@
     </div>
     
 </footer>
+
+ 
 
 </html>
