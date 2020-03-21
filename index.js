@@ -28,14 +28,49 @@ phone__2.addEventListener('click', ()=>{
     black__2.classList.add('black__horisontal__none');
 })
 
+
+
+
+/* SLIDER */
+
+const chevL = document.getElementById('chevL');
+const chevR = document.getElementById('chevR');
+
+chevL.addEventListener('click', ()=>{
+    const slide = document.getElementById('second__slide');
+    if (slide.className == 'none'){
+        slide.classList.remove('none');
+    }
+    else {
+        slide.classList.add('none');
+    }
+    
+});
+
+
+chevR.addEventListener('click', ()=>{
+    const slide = document.getElementById('second__slide');
+    if (slide.className == 'none'){
+        slide.classList.remove('none');
+    }
+    else {
+        slide.classList.add('none');
+    }
+    
+})
+
+
+
+
+
+
 /* Portfolio */
 
 const nav = document.getElementById('navigation__2__id');
 
 let pictures = document.getElementById('pictures__id');
 let pic = pictures.querySelectorAll('.pic');
-let arr = [];
-arr.push(pic); console.log(arr);
+
 
 pictures.addEventListener('click', (event)=>{
     pictures.querySelectorAll('.pic').forEach(e=>e.classList.remove('active'));
@@ -47,16 +82,15 @@ pictures.addEventListener('click', (event)=>{
 nav.addEventListener('click', (event)=>{
     nav.querySelectorAll('a').forEach(e=>e.classList.remove('activated'));
     event.target.classList.add('activated');
-    shuffle(arr);
+
+    let arr = [];
+    arr.push(pic);
+    let array = arr.sort(()=> Math.random()-0.5);
+    console.log(array);
 
 }); 
-console.log(arr);
 
 
-function shuffle(arr){
-    arr.sort(() => Math.random() - 0.5);
-    pic = arr;
-}
 
 
 
