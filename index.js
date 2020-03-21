@@ -70,8 +70,15 @@ const closeButton = document.getElementById('ok__button');
 
 
 button.addEventListener('click', ()=>{
-    const subject =  document.getElementById('subject').value;
-    const description =  document.getElementById('describe').value;
+
+    let subject =  document.getElementById('subject').value;
+    let description =  document.getElementById('describe').value;
+    if (subject == ""){
+        subject = 'No subject ';
+    } 
+    if (description == "") {
+        description = 'No description';
+    }
     document.getElementById('result').innerText = 'Subject: ' + subject+ '\n' +'Description: ' + description;
     document.getElementById('message__block').classList.remove('hidden');
 });
