@@ -43,6 +43,10 @@
 }
 */
 
+html {
+    scroll-behavior: smooth;
+  }
+
 body {
     margin: 0;
   }
@@ -56,6 +60,8 @@ body {
     margin: 0 auto;
     
 }
+
+
 
 .intro {
     text-decoration: none;
@@ -93,7 +99,7 @@ body {
     list-style-type: none;
     justify-content: space-between;
     align-items: center;
-    margin: 45px 30px 35px;
+    margin: 45px 30px 40px;
 }
 
 
@@ -179,19 +185,21 @@ body {
 
 
 .black__vertical__none{
-   
+    width: 192px;
+    height: 334px;
     display: block;
     position: absolute;
-    right: 62.7%;
-    top: 28%;
+    right: 68.8%;
+    top: 32%;
 }
 
 .black__vertical{
-    
     display: none;
+    width: 192px;
+    height: 334px;
     position: absolute;
-    right: 62.7%;
-    top: 28%;
+    right: 68.8%;
+    top: 32%;
 }
 
 
@@ -205,16 +213,16 @@ body {
 .black__horisontal{
     display: none;
     position: absolute;
-    top: 37.4%;
-    left: 48.4%;
+    top: 42.5%;
+    left: 47.6%;
 }
 
 
 .black__horisontal__none{
     display: block;
     position: absolute;
-    top: 37.4%;
-    left: 48.4%;
+    top: 42.5%;
+    left: 47.6%;
 }
 
 
@@ -846,3 +854,7 @@ h2 {
     border: none;
     text-align: center;
 }
+
+
+
+
