@@ -499,7 +499,7 @@ h2 {
     line-height: 17px;
     color: #666d89;
     margin-top: 0px;
-    margin-left: 40px;
+   
 }
 
 .paragraph.second__paragraph{
@@ -517,8 +517,8 @@ h2 {
     padding-top: 7px;
     margin-bottom: 11px;
     text-align: justify;
-    margin-left: 40px;
-    max-width: 688px;
+    
+    
 }
 
 
@@ -544,6 +544,7 @@ h2 {
 }
 
 .person__name {
+    margin-top: 20px;
     color: #666d89;
     font-family: "Lato";
     font-size: 18px;
@@ -571,6 +572,9 @@ h2 {
     
 }
 
+.social__icons {
+    margin-bottom: 66px;
+}
 .social__icon {
     margin-top: 24px;
     margin-right: 4px; 

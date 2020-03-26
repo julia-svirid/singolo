@@ -15,6 +15,7 @@
         margin: 0 auto;
     }
     
+   
 
     .slider {
         width: 100%;
@@ -154,17 +155,24 @@
 
 
  
-    
+ 
+    .about {
+        margin-left: 40px;
+        max-width: 688px;
+    }
 
     .people {
         justify-content: start;
-        margin: 28px 2px 12px 35px;
+        margin-top: 33px;
     }
 
+    .person__card {
+        max-width: 220px;
+        margin-right: 7px;
+    }
 
     .person_avatar {
-        width: 30%;
-        height: 10%;
+        width: 218px;
         margin: 0px 1%;
     }
    
@@ -203,5 +211,159 @@
     .contact {
         min-width: 240px;
         width: 50%;
+    }
+}
+
+
+
+@media only screen and (min-width : 375px) and (max-width :  767px) {
+    .wrapper {
+        width: 100%;
+        margin: 0 auto;
+        max-width: 768;
+    }
+    
+
+    .container {
+        width: 100%;
+        max-width: 768px;
+        margin: 0 auto;
+    }
+
+
+
+    .navigation {
+        display: flex;
+        list-style-type: none;
+        justify-content: space-between;
+        align-items: center;
+        margin: 45px 30px 40px;
+        flex-direction: column;
+    }
+
+    .phone__vertical {
+        width: 88px;
+        
+    }
+
+    .phone__horisotal {
+        width: 178px;
+    }
+
+    .slider
+     {
+        height: 220px;
+    }
+
+    .chev {
+        height: 220px;
+    }
+
+    .chev__left,
+    .chev__right {
+        margin: 10px;
+    }
+
+    .iphone__vertical {
+        margin: 57px 26px 58px 0px;
+    }
+
+    #second__slide {
+        padding-top: 380px;
+        max-width: 375px;
+    }
+
+    .blue__slide {
+        width: 100%;
+        max-width: 767px;
+       
+    }
+
+    h2 {
+        padding: 25px 0px 0px 30px;
+    }
+
+    .paragraph  {
+        margin: 17px 30px 0px 30px;
+        text-align: left;
+    }
+    
+    .services__item.second__item {
+        margin: 0px;
+    }
+
+    .services__text {
+        margin-left: 10px;
+    }
+
+    .flex__container {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .portfolio {
+        width: 90%;
+        max-width: 375px;
+       padding-left: 30px;
+    }
+
+
+    .about {
+        width: 80%;
+        margin: 0 40px;
+    }
+    .paragraph__2 {
+        margin: 0;
+        width: 315px;
+    }
+
+    .paragraph__3 {
+        width: 315px;
+    }
+
+    .pictures {
+        justify-content: start;
+        max-height: 544px;
+    }
+
+    .pic {
+        max-width: 151px;
+        margin: 0px 3% 3% 0px;
+    }
+    
+
+
+    .content {
+        width: 80%;
+        margin: 0 40px;
+    }
+
+    .input {
+        min-width: 315px;
+        width: 50%;
+       
+    }
+
+    .input__1 {
+        width: 71.5%;
+        min-width: 315px;
+    }
+
+    #describe {
+        width: 71.5%;
+        min-width: 315px;
+    }
+
+    .button {
+        width: 100%;
+    }
+
+    .copyright {
+        display: none;
+    }
+
+    .footer__social {
+        margin: 22px auto;
     }
 }
