@@ -139,7 +139,7 @@
 
 
     .portfolio {
-        max-width: 768px;
+        max-width: 728px;
         margin: 0px 40px;
     }
 
@@ -149,6 +149,59 @@
     }
     .pic {
         max-width: 216px;
-        margin: 0px 20px 20px 0px;
+        margin: 0px 2% 2% 0px;
+    }
+
+
+ 
+    
+
+    .people {
+        justify-content: start;
+        margin: 28px 2px 12px 35px;
+    }
+
+
+    .person_avatar {
+        width: 30%;
+        height: 10%;
+        margin: 0px 1%;
+    }
+   
+
+    .people__description {
+        display: flex;
+        justify-content: space-between;
+        
+        padding-right: 25px;
+        margin: 19px 0px 64px 40px;
+}
+
+    .h1__3 {
+        margin: 0px 0px 0px 40px;
+    }
+
+    .quote {
+        margin: 0px 40px;
+    }
+
+    .input {
+        min-width: 442px;
+        width: 50%;
+        margin: 44px 10px 26px 40px;
+    }
+    .input__1 {
+        width: 71.5%;
+        min-width: 442px;
+    }
+
+    #describe {
+        min-width: 442px;
+        width: 71.5%;
+    }
+
+    .contact {
+        min-width: 240px;
+        width: 50%;
     }
 }

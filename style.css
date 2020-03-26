@@ -492,10 +492,36 @@ h2 {
 
 }
 
+.h1__4 {
+    font-family: "Lato";
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 17px;
+    color: #666d89;
+    margin-top: 0px;
+    margin-left: 40px;
+}
+
 .paragraph.second__paragraph{
     line-height: 31px;
     word-spacing: 0.06em;
+    
 }
+
+.paragraph__3 {
+    color: #767e9e;
+    font-family: "Lato";
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 31px;
+    padding-top: 7px;
+    margin-bottom: 11px;
+    text-align: justify;
+    margin-left: 40px;
+    max-width: 688px;
+}
+
+
 
 
 .people {
@@ -679,7 +705,7 @@ h2 {
 
 
 .button {
-    width: 619px;
+    width: 100px;
     height: 20px;
     border: 1px solid #d6564f;
     background-color: #d6564f;
