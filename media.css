@@ -97,7 +97,7 @@
     .black__horisontal__none{
         display: block;
         position: absolute;
-        top: 35.8%;
+        top: 36.2%;
         left: 48%;
         width: 252px;
         height: 143px;
@@ -250,6 +250,14 @@
         width: 178px;
     }
 
+    .black__horisontal__none {
+        width: 124px;
+        height: 70px;
+        display: block;
+        position: absolute;
+        top: 24.8%;
+        left: 47.3%;
+    }
     .slider
      {
         height: 220px;
@@ -266,6 +274,15 @@
 
     .iphone__vertical {
         margin: 57px 26px 58px 0px;
+    }
+
+    .black__vertical__none {
+        width: 70px;
+        height: 123px;
+        display: block;
+        position: absolute;
+        right: 69.1%;
+        top: 21%;
     }
 
     #second__slide {
@@ -314,7 +331,7 @@
         margin: 0 40px;
     }
     .paragraph__2 {
-        margin: 0;
+        margin: 0 0 20px 0;
         width: 315px;
     }
 
