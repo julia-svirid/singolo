@@ -61,6 +61,9 @@ body {
     
 }
 
+.header__back {
+    background-color: #2d303a ;
+}
 
 
 .intro {
@@ -267,7 +270,6 @@ body {
 
 .services {
     width: 100%;
-   
     background-color: #f2f2f2;
     border-bottom: 6px solid rgb(255,255,255);
     
