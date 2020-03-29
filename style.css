@@ -301,7 +301,7 @@ h2 {
 
 
  .services__list {
-    margin: 46px 40px 30px 41px;
+    margin: 46px 1px 30px 30px;
     display: flex;
     flex-wrap: wrap;
 }
@@ -347,6 +347,7 @@ h2 {
     letter-spacing: -0.04em;
     max-width: 220px;
     margin-top: 9px;
+    margin-left: 10px;
 } 
 
 
