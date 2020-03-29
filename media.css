@@ -230,15 +230,72 @@
         margin: 0 auto;
     }
 
+    .header {
+        display: flex;
+        flex-direction: row;
+        justify-content: baseline;
+       
+    }
+
+    .h__1 {
+        margin: 10px auto 50px;
+        padding-top: 11%;
+    }
+
+    .dropdown_img {
+        
+        margin: 25px 20px 0px 20px;
+        
+    }
+
+    
+
+
+    .menu {
+        z-index: 103000;
+    }
+
+
+    .dropdown {
+        background-color: #2d303a;
+        padding-top: 225px;
+        flex-direction: column;
+        display: flex;
+        position: absolute;
+    }
+
+    .dropdown_head {
+        display: flex;
+        margin-top: 30px;
+    }
+
+    .dropdown_child {
+        display: block;
+        visibility: hidden;
+        
+        
+    }
+
+    .dropdown:hover .dropdown_child 
+
+     { background-color: #2d303a;
+        visibility: visible;
+        display: block;
+        padding: 32px 130px 35px 50px;
+    }
+
+    .dropdown:hover .dropdown_img {
+        transform: rotate(90deg);
+        transition: linear 0.5s;
+    }
+
 
 
     .navigation {
-        display: flex;
-        list-style-type: none;
-        justify-content: space-between;
-        align-items: center;
-        margin: 45px 30px 40px;
-        flex-direction: column;
+     
+       
+        display: none;
+        
     }
 
     .phone__vertical {
@@ -345,7 +402,7 @@
     }
 
     .pic {
-        max-width: 151px;
+        width: 151px;
         margin: 0px 3% 3% 0px;
     }
     
@@ -382,5 +439,10 @@
 
     .footer__social {
         margin: 22px auto;
+    }
+
+
+    #message__block {
+        margin: 400px 10px 0px;
     }
 }
