@@ -126,28 +126,15 @@ nav.addEventListener('click', (event)=>{
     for (let i = 0; i<12; i++){
         picSrc[i] = srcArr[i];
         let picture = document.createElement('img');
-        picture.classList.add = 'pic';
+        
         picture.src = picSrc[i];
         pictures.appendChild(picture);
+        picture.classList.add('pic');
     }
+  
    
 
 }); 
-
-
-
-
-
- 
-/*for (let key in picSrc) {
-
-    let picture = document.createElement('img');
-        picture.classList.add = 'pic';
-        picture.src = picSrc[+key+1];
-        pictures.appendChild(picture);
-    }
-*/
-
 
 
 
