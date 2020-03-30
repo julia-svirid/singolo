@@ -149,7 +149,7 @@ const closeButton = document.getElementById('ok__button');
 
 
 button.addEventListener('click', ()=>{
-
+    event.preventDefault();
     let subject =  document.getElementById('subject').value;
     let description =  document.getElementById('describe').value;
     if (subject == ""){

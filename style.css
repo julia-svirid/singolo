@@ -190,6 +190,10 @@ body {
     
 }
 
+.square_v {
+    
+}
+
 
 .black__vertical__none{
     width: 192px;
@@ -240,11 +244,12 @@ body {
     position: absolute;
     opacity: 1;
     z-index: 2;
+    animation: 0.8s ease-in-out;
  
-    -webkit-transition: opacity 1s;
+   /* -webkit-transition: opacity 1s;
     -moz-transition: opacity 1s;
     -o-transition: opacity 1s;
-    transition: opacity 1s;
+    transition: opacity 1s;*/
     
     
    
@@ -268,10 +273,17 @@ body {
 
 /* Services section */
 
-.services {
+.services__back {
     width: 100%;
+    max-width: 1020px;
+    height: 100%;
+    margin: 0 auto;
     background-color: #f2f2f2;
     border-bottom: 6px solid rgb(255,255,255);
+}
+.services {
+    max-width: 1020px;
+    margin: 0 auto;
     
 }
 

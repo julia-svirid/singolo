@@ -126,11 +126,11 @@
     }
 
     .services__item.second__item {
-        margin: 10px 33px 0px 0px;
+        margin: 10px 3px 0px 0px;
     }
     
     .services__item {
-       margin: 10px 33px 10px 0px; 
+       margin: 10px 3px 10px 0px; 
     }
 
     .services__text {
@@ -140,13 +140,17 @@
 
 
     .portfolio {
-        max-width: 728px;
+        max-width: 940px;
         margin: 0px 40px;
+    }
+    .paragraph__2 {
+        max-width: 940px;
     }
 
     .pictures {
         justify-content: start;
         max-height: 794px;
+        width: 940px;
     }
     .pic {
         max-width: 216px;
@@ -157,22 +161,22 @@
  
  
     .about {
-        margin-left: 40px;
-        max-width: 688px;
+        width: 100%;
+    margin: 0 auto;
     }
 
     .people {
-        justify-content: start;
+        justify-content: space-between;
         margin-top: 33px;
     }
 
     .person__card {
-        max-width: 220px;
-        margin-right: 7px;
+        width: 30%;
+        
     }
 
     .person_avatar {
-        width: 218px;
+        width: 100%;
         margin: 0px 1%;
     }
    
